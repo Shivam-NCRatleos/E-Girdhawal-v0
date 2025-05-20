@@ -17,6 +17,7 @@ import Connect from './pages/Connect.jsx'
 import Gallery from './pages/Gallery.jsx'
 import WaterManagement from './pages/WaterConservation.jsx'
 import Disease from './pages/Disease.jsx'
+import UploadImage from './pages/UploadImage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -25,8 +26,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
   },
   {
-    path: '/About',
-    element: <About />
+    path: '/upload',
+    element: <UploadImage />
   },
   {
     path: '/Charts',

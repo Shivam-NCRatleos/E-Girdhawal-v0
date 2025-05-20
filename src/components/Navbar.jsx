@@ -11,7 +11,7 @@ const Navbar = () => {
 
   const navLinks = [
     { title: 'Home', path: '/' },
-    { title: 'About', path: '/about' },
+    { title: 'Mobile Upload', path: '/upload' },
     { title: 'Gallery', path: '/gallery' }
   ];
 
@@ -40,7 +40,7 @@ const Navbar = () => {
             className="relative"
           >
             <Link to="/" className="text-2xl font-bold bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
-              AgriGuard
+              E-Girdhawal
             </Link>
           </motion.div>
 
