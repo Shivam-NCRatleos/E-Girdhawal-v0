@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link
 
 const Footer = () => (
   <footer className="bg-gray-900 text-white mt-10">

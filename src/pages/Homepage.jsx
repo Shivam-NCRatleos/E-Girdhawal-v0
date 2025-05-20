@@ -331,6 +331,7 @@ const Homepage = () => {
           </div>
         </section>
       </motion.div>
+      <Footer />
     </>
   );
 };
